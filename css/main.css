@@ -73,7 +73,7 @@ footer {
 }
 
 #rides {
-    min-height: 550px;
+    min-height: 450px;
     text-align: center;
 }
 
@@ -84,7 +84,6 @@ footer {
 
 ul#rides li {
     list-style: none;
-    padding: 20px;
     border: #cccccc solid 1px;
     margin-bottom: 5px;
     background: #e6e6e6;
@@ -97,8 +96,50 @@ ul#rides li {
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
+    cursor: pointer;
 }
 
-#profile {
-    min-height: 550px;
+#offer {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.offer {
+    background: #ffffff;
+    border: #080124 1px solid;
+    padding: 16px;
+}
+
+input, textarea {
+    width: 75%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: #000000;
+    background: #f1f1f1;
+  }
+  
+  input:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+#profile-photo {
+    background: url('../images/ride.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dp {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: #2a0ba7 3px solid;
+}
+
+#details {
+    text-align: center;
+    padding-top: 20px;
 }
